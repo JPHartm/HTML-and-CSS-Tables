@@ -1,51 +1,102 @@
-/* Grundlegende Seiten-Styling */
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
 body {
-    font-family: Arial, sans-serif; /* Nutzt Arial, falls verfügbar */
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5; /* Ein leichter Hintergrund */
+    font-family: Arial, sans-serif;
+    padding: 0px;
+    background-color: #ebe5e5;
+    text-align: center;
+    white-space: nowrap;
+    overflow: auto;
+    min-width: 1030px;
+    margin: auto;
+    font-family: 'Exo', sans-serif;
 }
 
 header {
-    background-color: #333;
+    background-color: #678abca8;
     color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    padding: 10px;
 }
 
-.table-section {
-    margin: 20px;
-    background-color: #ffffff;
-    border: 1px solid #e0e0e0;
-    padding: 20px;
-    border-radius: 5px; /* Leicht gerundete Ecken */
-}
-
-.table-title {
-    margin-bottom: 20px;
-    color: #333;
+.zwischenüberschrift {
+    background-color: #678abc89;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 7px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    min-width: 1000px;
+    max-width: 1000px;
 }
 
 .table {
-    width: 100%; /* Damit die Tabelle den gesamten Bereich ausfüllt */
-    border-collapse: collapse; /* Entfernt doppelte Ränder */
+    width: 100%;
+    border-collapse: collapse;
 }
 
-.table-header, .table-body, .table-foot {
-    border: 1px solid #e0e0e0;
+.three-columns {
+    table-layout: fixed;
+}
+
+.two-columns {
+    table-layout: fixed;
+}
+
+.table-section {
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #e9ecf4;
+    border: 1px solid #1d92c4;
+    padding: 20px;
+    border-radius: 20px;
+    min-width: 980px;
+    max-width: 980px;
+}
+
+.table-title {
+    background-color: #7da8fe3e;
+    border: 2px solid #1d92c4;
+    font-size: 20px;
+}
+
+.table-body {
+    font-size: 14px;
+    text-align: left;
+    max-width: 100%;
+}
+
+.table th:first-child {
+    text-align: center;
+}
+
+.table th {
+    background-color: #7d95fe15;
+    text-align: left;
+}
+
+
+.table-header, .table-body {
+    border-top: 2px solid #1d92c4;
+    border-right: 2px solid #1d92c4;
+    border-left: 2px solid #1d92c4;
+    border-bottom: 1px solid #1d92c4; 
 }
 
 .table-header th, .table-body td {
-    padding: 10px;
-    border: 1px solid #e0e0e0; /* Einfacher Rahmen um jedes Zellenelement */
+    padding: 5px;
+    border: 1px solid #1d92c4;
 }
 
 .table-header th {
-    background-color: #f0f0f0; /* Ein leicht grauer Hintergrund für die Tabellenüberschrift */
+    background-color: #7d95fe15;
 }
 
 .table-foot {
-    font-style: italic;
+    background-color: #7da8fe3e;
+    border-top: 1px solid #1d92c4;
+    border-right: 2px solid #1d92c4;
+    border-left: 2px solid #1d92c4;
+    border-bottom: 2px solid #1d92c4;
+    height: 15px;
 }
-
-/* Sie können hier zusätzliche Stile hinzufügen, um Ihr Design weiter anzupassen. */
