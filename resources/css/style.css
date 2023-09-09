@@ -1,36 +1,24 @@
-h1, 
-h2, 
-h3, 
-p {
-  font-family: "Helvetica", sans-serif;
+body {
+  background-color: rgb(239, 217, 202);
 }
 
-h1 {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
-  text-align: center;
-  font-size: 100px;
-  color: khaki;
+#box {
+  border: 10px solid black;
+  width: 200px;
+  height: 200px;
+  margin: 25% auto;
 }
 
-.item h2 {
-  font-size: 32px;
-  font-weight: bold;
-  color: white;
+#left {
+  border: 5px solid red;
+  width: 90px;
+  height: 190px;
+  display: inline-block;
 }
 
-.price {
-  font-weight: bold;
-  color: blue;
-}
-
-#brush {
-  background-color: mediumspringgreen;
-}
-
-#frame {
-  background-color: lightcoral;
-}
-
-#paint {
-  background-color: skyblue;
+#right {
+  border: 5px solid blue;
+  width: 90px;
+  height: 190px;
+  margin: -4px;
 }
