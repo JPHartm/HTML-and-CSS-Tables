@@ -1,0 +1,51 @@
+/* Grundlegende Seiten-Styling */
+body {
+    font-family: Arial, sans-serif; /* Nutzt Arial, falls verfügbar */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Ein leichter Hintergrund */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.table-section {
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 5px; /* Leicht gerundete Ecken */
+}
+
+.table-title {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.table {
+    width: 100%; /* Damit die Tabelle den gesamten Bereich ausfüllt */
+    border-collapse: collapse; /* Entfernt doppelte Ränder */
+}
+
+.table-header, .table-body, .table-foot {
+    border: 1px solid #e0e0e0;
+}
+
+.table-header th, .table-body td {
+    padding: 10px;
+    border: 1px solid #e0e0e0; /* Einfacher Rahmen um jedes Zellenelement */
+}
+
+.table-header th {
+    background-color: #f0f0f0; /* Ein leicht grauer Hintergrund für die Tabellenüberschrift */
+}
+
+.table-foot {
+    font-style: italic;
+}
+
+/* Sie können hier zusätzliche Stile hinzufügen, um Ihr Design weiter anzupassen. */
